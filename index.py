@@ -7,7 +7,7 @@ from suaBibSignal import *
 import peakutils
 import numpy as np
 import sounddevice as sd
-from scipy.signal import butter , lfilter
+from scipy.signal import butter 
 
 freq = {1:(1209,679), 2:(1336,679), 3:(1477,679), 4:(1209,770), 5:(1336,770), 6:(1477,770), 7:(1209,852), 8:(1336,852), 9:(1477,852), 0:(1336,941)}
 

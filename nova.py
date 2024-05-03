@@ -42,6 +42,7 @@ fft_original = fft(audio)
 fft_filtrado = fft(output)
 frequencias = fftfreq(len(audio), d=1/fs)
 
+# Plotar os resultados
 plt.figure(figsize=(12, 8))
 
 # Áudio original e filtrado
@@ -61,4 +62,3 @@ plt.title('FFT do Áudio Original e Filtrado')
 plt.xlabel('Frequência (Hz)')
 plt.ylabel('Magnitude')
 plt.legend()
-plt.show()
